@@ -1,0 +1,25 @@
+{
+  "name": "jonasdekeukelaere/email",
+  "type": "library",
+  "description": "Email class",
+  "homepage": "https://github.com/jonasdekeukelaere/email",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Jonas De Keukelaere",
+      "email": "dev-email@teracon.be",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "beberlei/assert": "^2.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "JonasDeKeukelaere\\Email\\": "src"
+    }
+  }
+}
